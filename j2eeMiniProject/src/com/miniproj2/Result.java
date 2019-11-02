@@ -1,0 +1,9 @@
+package com.miniproj2;
+
+public class Result {
+	     public static final String SUCCESS="success";
+	     public static final String FAILURE="failure";
+	     public static final String PROBLEM="problem";
+	}
+
+
