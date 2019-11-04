@@ -8,9 +8,9 @@
 </head>
 <body>
 <form action="http://localhost:9090/j2eeMiniProject/DeleteController" method="post"><br>
-enter id of the record you want to delete<input type="text" name="deleting">
+enter id of the record you want to delete<input type="number" name="deleting">
 <input type="submit" name="delete" value="delete">
-<p>hi</p>
+
 </form>
 </body>
 </html>

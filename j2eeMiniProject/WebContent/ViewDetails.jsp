@@ -8,7 +8,7 @@
 </head>
 <body>
 <%
-	ArrayList<User> list=(ArrayList)session.getAttribute("userList");
+	ArrayList<User> list=(ArrayList<User>)session.getAttribute("userList");
 
 if(list.isEmpty())
 {

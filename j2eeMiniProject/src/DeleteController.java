@@ -22,7 +22,7 @@ public class DeleteController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 
-    public DeleteController() {
+   public DeleteController() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -30,10 +30,10 @@ public class DeleteController extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		int cid=Integer.parseInt(request.getParameter("cid"));
+		int id=Integer.parseInt(request.getParameter("cid"));
 		
 		User u=new User();
-		u.setCid(cid);
+		u.setCid(id);
 		UserDAO u1=new UserDAO();
 		String result1 =u1.deleteUser(u);
 		
